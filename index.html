@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Results summary component</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&display=swap" rel="stylesheet">
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="left">
+        <h4> Your Result</h4>
+      <div class="score-left">
+        <h1 class="big-score">76</h1>
+        <span class="small-score">of <a class="a">100</a></span>
+      </div>
+      <div class="left-text">
+        <h2>Great</h2>
+        <p class="info">You scored higher than 65% of the people who have taken these tests.</p>
+      </div>
+    </div>
+
+    <div class="right">
+      <h3>Summary</h3>
+      <div class="row" id="reaction">
+        <div ><img src="assets\images\icon-reaction.svg" alt="reaction"></div>
+        <div> Reaction</div>
+        <div class="column">
+           80 / <a class="a">100</a>
+        </div>
+      </div>
+
+      <div class="row" id="memory">
+        <div ><img src="assets\images\icon-Memory.svg" alt="reaction"></div>
+        <div> Memory</div>
+        <div class="column">
+          92 / <a class="a">100</a>
+        </div>
+      </div>
+
+      <div class="row" id="verbal">
+        <div ><img src="assets\images\icon-Verbal.svg" alt="reaction"></div>
+        <div> Verbal</div>
+        <div class="column">
+          61 / <a class="a">100</a>
+        </div>
+      </div>
+
+      <div class="row" id="visual">
+        <div ><img src="assets\images\icon-Visual.svg" alt="reaction"></div>
+        <div> Visual</div>
+        <div class="column">
+          72 / <a class="a">100</a>
+        </div>
+      </div>
+      <button class="btn">Continue</button>
+    </div>
+  </div>
+
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="https://www.frontendmentor.io/profile/hsnb5789">Bharath(hsnb5789)</a>.
+  </div>
+</body>
+</html>
